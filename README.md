@@ -41,5 +41,7 @@ sudo modprobe rtl8822cs
 lsmod | grep rtl8822cs
 ```
 #### 可以看到成功加载驱动  
+```
 8822cs               1843200  0  
 cfg80211              917504  2 8822cs,brcmfmac
+```
