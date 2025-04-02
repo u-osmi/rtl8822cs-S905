@@ -1,6 +1,8 @@
 ### 第一步，安装编译工具
+```
 mkdir -p /usr/local/toolchain  
 cd /usr/local/toolchain
+```
 #### 下载编译工具
 wget https://github.com/ophub/kernel/releases/download/dev/arm-gnu-toolchain-13.3.rel1-aarch64-aarch64-none-elf.tar.xz
 #### 解压
