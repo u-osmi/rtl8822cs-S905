@@ -9,8 +9,8 @@ tar -Jxf arm-gnu-toolchain-13.3.rel1-aarch64-aarch64-none-elf.tar.xz
 ### 第二步，下载驱动，编译
 #### 下载驱动源码
 cd ~/  
-git clone https://github.com/u-osmi/rtl8822cs.git  
-cd rtl8822cs
+git clone https://github.com/u-osmi/rtl8822cs-S905.git  
+cd ~/rtl8822cs-S905
 #### 设置编译环境
 gun_file="arm-gnu-toolchain-13.3.rel1-aarch64-aarch64-none-elf.tar.xz"  
 toolchain_path="/usr/local/toolchain"  
@@ -21,7 +21,7 @@ export LD="${CROSS_COMPILE}ld.bfd"
 export ARCH="arm64"  
 export KSRC=/usr/lib/modules/$(uname -r)/build
 #### 根据源码的实际路径设置 M 变量
-export M="/root/rtl8822cs"
+export M="/root/rtl8822cs-S905"
 #### 编译驱动
 make
 
