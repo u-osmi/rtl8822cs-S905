@@ -1673,7 +1673,7 @@ endif
 
 ifeq ($(CONFIG_PLATFORM_ARM_RK2818), y)
 EXTRA_CFLAGS += -DCONFIG_LITTLE_ENDIAN -DCONFIG_PLATFORM_ANDROID -DCONFIG_PLATFORM_ROCKCHIPS
-ARCH := arm
+ARCH := arm64
 CROSS_COMPILE := /usr/local/toolchain/arm-gnu-toolchain-13.3.rel1-aarch64-aarch64-none-elf/bin/aarch64-none-elf-
 KSRC := /usr/lib/modules/*.*.*-ophub/build
 MODULE_NAME := rtl8822cs
