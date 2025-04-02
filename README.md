@@ -26,7 +26,7 @@ make
 ### 第三步，安装驱动
 ```
 sudo mkdir /lib/modules/$(uname -r)/kernel/drivers/net/wireless/rtl8822cs  
-sudo cp -f 8821cs.ko /lib/modules/$(uname -r)/kernel/drivers/net/wireless/rtl8822cs
+sudo cp -f rtl8822cs.ko /lib/modules/$(uname -r)/kernel/drivers/net/wireless/rtl8822cs
 ```
 #### 更新模块依赖关系
 ```
