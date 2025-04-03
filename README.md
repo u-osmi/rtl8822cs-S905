@@ -15,8 +15,8 @@ tar -Jxf arm-gnu-toolchain-13.3.rel1-aarch64-aarch64-none-elf.tar.xz
 #### 下载驱动源码
 ```
 cd ~/  
-git clone https://github.com/u-osmi/rtl8822cs-S905.git  
-cd ~/rtl8822cs-S905
+git clone https://github.com/u-osmi/rtl8822cs-arm64.git  
+cd ~/rtl8822cs-arm64
 ```
 #### 编译驱动
 ```
